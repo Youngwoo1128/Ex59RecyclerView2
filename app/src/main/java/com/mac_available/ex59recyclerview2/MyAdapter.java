@@ -23,6 +23,8 @@ import de.hdodenhof.circleimageview.CircleImageView;
 
 public class MyAdapter extends RecyclerView.Adapter {
 
+    //이거도 push
+
     Context context;
     ArrayList<Item> items;
 
