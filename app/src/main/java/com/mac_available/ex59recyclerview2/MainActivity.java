@@ -12,10 +12,6 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    // Github
-    // 이제 pull
-    // 다시 push
-
     ArrayList<Item> items = new ArrayList<>();
     RecyclerView recyclerView;
     MyAdapter adapter;
