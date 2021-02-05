@@ -13,6 +13,7 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
 
     // Github
+    // 이제 pull
 
     ArrayList<Item> items = new ArrayList<>();
     RecyclerView recyclerView;
