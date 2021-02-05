@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mac_available.ex59recyclerview2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Ex59RecyclerView2">
+        <!--업버튼으로 돌아가는 액티비티에 android:launchMode = "singleTop"을 주지 않으면기존 액티비티의 화면을 없애고 다시 새로 만들어서 기존 화면에 했던 작업들이 없어질수 있음. -->
+        <!--  <activity android:name=".DetailActivity" android:parentActivityName=".MainActivity"></activity>  -->
+        <activity android:name=".DetailActivity"></activity>
+        <activity android:name=".MainActivity" android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
